@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* pagina de estilos versa digital
+	
+	developed by  studio midiamix
+	
+	www.studiomidiamix.com.br
+	
+	facebook.com/studiomidiamix
+
+
+ */
+ 
+/*estruturação geral das paginas */
+
+	#tudo{
+		width:100%; height:100%; margin-left:0px; margin-bottom:0px; margin-right:0px; margin-top:0px; position:absolute; background-color:#FFFFFF;}
+		
+	#conteudo{
+		width:928px; height:auto; min-height:687px; float:center; margin-left:auto; margin-right:auto;}
+	
+	.content{
+		width:900px; height:auto; min-height:662px; float:left; display:block; overflow:hidden; margin-top:25px;}
+		
+	#sombraesquerda{
+		width:14px; height:687px; float:left; display:block; overflow:hidden; background-image:url(img/sombraesquerda.jpg); background-repeat:no-repeat;}	
+		
+	#sombradireita{
+		width:14px; height:687px; float:left; display:block; overflow:hidden; background-image:url(img/sombradireita.jpg); background-repeat:no-repeat;}	
+		
+	.branco{
+		float:left; overflow:hidden;}
+		
+	.titulos{
+		width:auto; height:40px; overflow:hidden; background-image:url(img/titulo.jpg); background-repeat:no-repeat; float:left; line-height:40px; text-align:left; text-indent:15px;}	
+		
+		
+	h1{font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#666666; font-style:normal; line-height:180%; margin:0px; margin-bottom:0px;
+		}
+		
+	h2{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; font-style:normal; line-height:130%;
+		}	
+		
+		
+	
+	h4{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; font-style:normal; line-height:250%; margin-top:0px; margin-left:0px; padding-left:15px; padding-right:30px; text-align:justify;
+		}					 
+	
+	
+
+/* header */
+	#headerfull{width:100%; height:293px; margin-left:0px; margin-right:0px; text-align:center; background-image:url(img/back_header_full.jpg); background-repeat:repeat-x;}	
+		
+	
+	#header{
+		width:928px; height:293px; float:center; margin-left:auto; margin-right:auto; display:block; overflow:hidden;}
+		
+	/* left e right, servem apenas para dar efeito de sobreposicao ao flash */
+	#left{
+		width:14px; height:293px; float:left; display:block; overflow:hidden; background-image:url(img/header_left.jpg); background-repeat:no-repeat;}	
+		
+	#right{
+		width:14px; height:293px; float:left; display:block; overflow:hidden; background-image:url(img/header_right.jpg); background-repeat:no-repeat;}	
+	
+	
+	#headerflash{
+		width:900px; height:293px; float:left; display:block; overflow:hidden; background-image:url(img/fundoflash.jpg); background-repeat:no-repeat;}	
+		
+	#logoversa{
+		width:261px; height:233px; float:left; display:block; overflow:hidden; background-color:transparent;}
+		
+	#flashbanner{
+		width:639px; height:233px; float:left; display:block; overflow:hidden;}	
+		
+	#menu{
+		width:900px; height:60px; float:left; clear:both; display:block; overflow:hidden;}		
+		
+		
+		
+
+
+/* footer */
+
+	#footer{
+		width:928px; height:104px; display:block; overflow:hidden; margin-left:auto; margin-right:auto; float:none;}
+		
+	#footerfull{
+		width:100%; height:104px;margin-left:0px; margin-right:0px; background-image:url(img/back_footer.jpg); background-repeat:repeat-x;}	
+		
+	#footermeio{
+		width:900px; height:104px; float:left; display:block; overflow:hidden; background-image:url(img/fundofooter.jpg);}	
+		
+		
+	#left1{
+		width:14px; height:104px; float:left; display:block; overflow:hidden; background-image:url(img/footer_left.jpg); background-repeat:no-repeat;}
+		
+	#right1{
+		width:14px; height:104px; float:left; display:block; overflow:hidden; background-image:url(img/footer_right.jpg); background-repeat:no-repeat;}	
+		
+		
+	#redes{
+		width:135px; height:43px; float:left; display:inline; margin-left:38px; margin-top:29px; margin-bottom:27px; margin-right:592px;}
+		
+	.rede{width:45px; height:43px; float:left; display:block; overflow:hidden;
+		}			
+
+	#midiamixflash{
+		width:135px; height:99px; float:left; display:inline; overflow:hidden; margin-top:5px;}
+
+
+
+
+
+/* home */
+	.colunaesquerda{
+		width:436px; height:662px; float:left; display:block; overflow:visible;}
+		
+	.divisorhome{
+		width:1px; height:603px; float:left; display:block; background-image:url(img/divisor.jpg); background-repeat:no-repeat;}
+		
+	.colunadireita{
+		width:463px; height:603px; float:left; overflow:visible;}
+		
+	#textobemvindo{
+		width:342px; height:178px; overflow:hidden; padding-left:28px; padding-right:46px; display:inline; text-align:justify;font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-style:normal; line-height:180%; }	
+		
+	#diferenciais{
+		width:436px; height:134px; float:left; display:block; overflow:hidden;}	
+		
+		
+	#projetosrecentes{
+		width:423px; height:124px; float:left; display:block; overflow:hiddenm; padding-left:20px; padding-right:20px;}	
+		
+	#telefonehome{width:187px; height:125px; float:left; display:inline; overflow:hidden; margin-left:15px; margin-bottom:31px;
+		}	
+		
+		
+	#orcamentohome{
+		width:159px; height:125px; float:left; overflow:hidden; display:inline; margin-left:7px; margin-bottom:13px; background-image:url(img/layoutversa_r22_c26.jpg); background-repeat:no-repeat; padding-top:105px; text-align:center;}	
+		
+	a.sublinhado{
+		font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none; color:#FFFFFF;}
+		
+	a.sublinhado:link{
+		font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none; color:#FFFFFF;}
+		
+	a.sublinhado:hover{
+		font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:underline; color:#FFFFFF;}
+		
+	
+	#container_chat{
+		width:390px; height:auto; float:left; display:block; overflow:hidden;
+		}
+	
+		
+	.msnchat{
+		width:150px; height:auto; float:left; display:block; overflow:hidden; padding-left:20px;font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; font-style:normal;}		
+		
+		
+				
+				
+/* institucional*/
+	.colunaesquerdainstitucional{
+		width:478px; height:603px; float:left; display:block; overflow:visible;}
+		
+	.colunadireitainstitucional{
+		width:419px; height:603px; float:left; overflow:visible;}	
+	
+
+	#textointitucional{
+		width:400px; height:auto; min-height:50px; float:left; display:block; overflow:hidden;font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-style:normal; line-height:180%; margin:0px; text-align:justify;
+		 padding-left:45px; padding-right:33px;}	
+		/* 45 de padding */					
+		
+	#containerfotosinstitucional{
+		width:302px; height:202px; float:left; display:inline; overflow:hidden; margin-left:72px; margin-right:23px; background-image:url(img/fundofotoinstitucional.jpg); background-repeat:no-repeat; margin-top:50px;}	
+		
+		
+	.fotointitucionais{
+		width:131px; height:81px; float:left; display:block; overflow:hidden; padding:10px;}/* 20 px de padding */
+		
+		
+/* portfolio */
+	#portfoliocontainer{
+		width:900px; height:662px; float:left; display:block; overflow:hidden;}	
+		
+		
+	
+	div.portolio{
+		width:579px; height:273px; margin-right:33px; float:left; display:inline;}	
+		
+	.linhasfotoportfolio{
+		width:579px; height:91px; float:left; display:block;}
+	
+	.fotoportfolio{
+		width:120px; height:67px; padding:12px; float:left; overflow:hidden; background-image:url(img/fundofoto.jpg); background-repeat:no-repeat;}/* atencao ao padding */
+		
+	#descricaoportfolio{
+		width:526px; height:100px; margin-bottom:70px; float:left; display:block; overflow:hidden; padding-left:21px; padding-right:32px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-style:normal; line-height:180%; margin:0px; text-align:justify}	
+		
+	.titulosportfolio{
+		width:612px; height:40px; overflow:hidden; background-image:url(img/tituloportfolio.jpg); background-repeat:no-repeat; float:left; line-height:40px; text-align:left; text-indent:15px; margin-top:25px;}	
+		
+	#paginaportfolio{
+		width:612px; height:662px; float:left;}			
+		
+		
+		
+/* menu seletor portfoliio */
+
+	#menuportfolio{
+		width:286px; height:662px; float:left; display:block; overflow:hidden;}
+		
+	.titulosmenu{
+		width:286px; height:40px; overflow:hidden; background-image:url(img/titulomenuportfolio.jpg); background-repeat:no-repeat; float:left; line-height:40px; text-align:left; text-indent:15px;}	
+		
+		
+	#menusservicos{
+		width:246px; height:662px; float:left; display:block; overflow:hidden; padding-left:40px;}/* padding 30 px esquerda */
+		
+		
+		
+	div.dadostecnicos{
+		width:612px; height:122px; float:left; display:block; overflow:hidden; background-image:url(img/fundotecnica.jpg); background-repeat:no-repeat;}
+		
+	#escritatecnica{
+		width:534px; height:50px; float:left; display:inline; margin-top:50px; margin-bottom:22px; background-color:transparent; padding-left:22px;}		
+		
+		
+			#teclargura{
+				width:88px; height:50px; float:left; display:block; overflow:hidden; text-align:center; line-height:44px; font-family:Arial, Helvetica, sans-serif; color:#FF6600; font-size:24px; margin-left:1px;}	
+				
+			#teccomprimento{
+				width:88px; height:60px; float:left; display:block; overflow:hidden; text-align:center; line-height:44px; font-family:Arial, Helvetica, sans-serif; color:#FF6600; font-size:24px;margin-left:1px;}	
+				
+			#tecespessura{
+				width:88px; height:50px; float:left; display:block; overflow:hidden; text-align:center; line-height:44px; font-family:Arial, Helvetica, sans-serif; color:#FF6600; font-size:24px;margin-left:1px;}
+				
+			#tecdurabilidade{
+				width:88px; height:50px; float:left; display:block; overflow:hidden; text-align:center; line-height:44px; font-family:Arial, Helvetica, sans-serif; color:#FF6600; font-size:24px;margin-left:1px;}
+				
+			#tectipouso{
+				width:88px; height:50px; float:left; display:block; overflow:hidden; text-align:center; font-family:Arial, Helvetica, sans-serif; color:#FF6600; font-size:14px;margin-left:1px;}		
+				
+			#tecambiente{
+				width:88px; height:50px; float:left; display:block; overflow:hidden; text-align:center; line-height:-150px; font-family:Arial, Helvetica, sans-serif; color:#FF6600; font-size:14px;margin-left:1px;}		
+	
+	
+	
+	li.menuportfolio{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#666666; list-style:none; text-decoration:none; height:30px; line-height:30px;
+		}	 
+		
+	li.menuportfolio:link{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left;  color:#666666; list-style:none; text-decoration:none;height:30px; line-height:30px;
+		}
+		
+	li.menuportfolio:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#FF6600; list-style:none; text-decoration:none;height:30px; line-height:30px;
+		}
+	
+	li.menuportfolio:active{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#666666; list-style:none; text-decoration:none;height:30px; line-height:30px;
+		}	
+		
+		
+	a.menuportfolio{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#666666; list-style:none; text-decoration:none;
+		}	 
+		
+	a.menuportfolio:link{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left;  color:#666666; list-style:none; text-decoration:none;
+		}
+		
+	a.menuportfolio:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#FF6600; list-style:none; text-decoration:none;
+		}
+	
+	a.menuportfolio:active{ font-family:Arial, Helvetica, sans-serif; font-size:14px; text-align:left; color:#666666; list-style:none; text-decoration:none;
+		}		
+	
+				
+		
+		
+/* clientes */
+
+	#containerflashcliente{
+		width:700px; height:400px; float:center; margin-left:auto; margin-right:auto; display:block; overflow:hidden;}	
+		
+		
+		
+
+/* pagina de contato */
+
+	#contatoesquerda{
+		width:436px; height:575px; float:left; display:block; overflow:hidden;}	
+		
+	#contatodireita{
+		width:464px; height:575px; float:left; display:block; overflow:hidden;}	
+		
+	#formulariocontato{
+		width:398px; height:497px; float:left; display:block; overflow:hidden; padding:19px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; text-align:left;}/* 19 de padding */
+		
+		
+	.formcontato{
+		float:left; text-align:left; height:500px; width:400px; padding-left:20px;}	
+		
+				
+				
+	.inputscontato{
+		min-width:300px; max-width:300px; min-height:15px; max-height:15px; float:left; display:block; clear:both;}
+		
+		
+	.inputtextarea{
+		min-width:300px; max-width:300px; min-height:100px; max-height:100px; float:left; display:block; clear:both;}	
+		
+	#endereço{
+		width:430px; height:183px; float:left; display:block; overflow:hidden; padding-right:32px; font-family:Arial, Helvetica, sans-serif; color:#666666; text-align:right; font-size:14px; font-style:normal;}		/* padding right 32px */	
+				
+				
+				
+	#mapacontato{
+		width:400px; height:260px; border-width:10px; border-style:solid; border-color:#E87E2C; float:right; display:inline; overflow:hidden; margin-right:32px;}	
+		
+
+/* orçamento */
+
+	#orcamentoesquerda{
+		width:436px; height:575px; float:left; display:block; overflow:hidden;}		
+		
+	#orcamentodireita{
+		width:464px; height:550px; float:left; display:block; overflow:hidden; padding-top:25px;}	
+		
+	#formularioorcamento{
+		width:398px; height:497px; float:left; display:block; overflow:hidden; padding:19px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; text-align:left;}/* 19 de padding */	
+		
+	#orcamentotexto{
+		width:332px; height:173px; float:left; display:blocl; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-style:normal; line-height:180%; padding-right:32px; 
+		padding-top:10px; padding-left:100px;}	
+		
+	#imgorcamento{
+		width:201px; height:134px; float:right; margin-right:180px;}			
+		
+			
+
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
